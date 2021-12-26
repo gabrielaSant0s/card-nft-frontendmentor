@@ -128,3 +128,14 @@ body{
     
 }
  
+/*hover*/
+
+.titulo-card:hover{
+    color:#3EEDF0 ;
+    cursor: pointer;
+}
+
+.usuario-item_tres:hover{
+    color:#3EEDF0;
+    cursor: pointer;
+}
