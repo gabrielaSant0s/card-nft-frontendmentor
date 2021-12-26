@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+body{
+    background-color: #0D1A2D;
+   
+}
+
+#card{
+    background-color: #15273F;
+    width: 20em;
+    height: 33em;
+    border-radius: 2.5%;
+    margin-top: 6%;
+    margin-left: 37%;
+    
+    
+}
+
+.img-equilibrio {
+    height: 17em;
+    border-radius: 2.5%;
+    margin: 7%;
+    margin-bottom: 0%;
+}
+
+.titulo-card{
+    color: #FBFFFF;
+    font-size: 1.3em;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    margin-left: 7%;
+}
+
+.descricao-card{
+    margin-left:7% ;
+    margin-right: 7%;
+    color: #88A7D2;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin-bottom: -3%;
+}
+
+.informacoes{
+    margin-top: 10%;
+    list-style-type: none;
+    width: 84%;
+    height: 2em;
+    font-size: 1em;
+    
+}
+
+    .informacoes-item{
+        width: 25%;
+        display: inline;
+    }
+
+        .informacoes-item_um{
+          color: #3EEDF0;
+          font-weight: 500;
+        }
+
+        .informacoes-item_dois{
+            color: #88A7D2;
+            font-weight: 500;
+          }
+
+.divisoria{
+    background-color:#88A7D2 ;
+    width: 86%;
+    height: 0.1%;
+    opacity: 0.5;
+    margin-left: 7%;
+}
+
+.image-usuario{
+    width: 2em;
+    height: 2em;
+}
+ 
