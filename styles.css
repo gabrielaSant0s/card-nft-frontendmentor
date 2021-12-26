@@ -17,13 +17,20 @@ body{
     margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1%;
 }
 
 .img-equilibrio {
-    height: 17em;
     border-radius: 2.5%;
-    margin: 7%;
-    margin-bottom: 0%;
+
+
+    /*coisas para o hover*/
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .titulo-card{
@@ -139,3 +146,39 @@ body{
     color:#3EEDF0;
     cursor: pointer;
 }
+
+/*fading */
+
+.container3{
+    position: relative;
+    width: 90%;
+    height: 18em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ovelay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container3:hover .img-equilibrio{
+    opacity: 0.3;
+  }
+  
+  .container3:hover .ovelay {
+    opacity: 1;
+  }
+
+  .olho{
+    position: absolute;
+    top: 7.5em ;
+    left: 7.5em;
+    
+  }
